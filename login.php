@@ -17,7 +17,7 @@
 
     <?php require_once 'header.php'; ?>
     <div class="container home">
-        <form action="../backend/loginController.php" method="POST">
+        <form action="backend/loginController.php" method="POST">
             <input type="text" name="username" placeholder="user">
             <input type="password" name="password" placeholder="pass">
             <input type="submit" name="submit">
